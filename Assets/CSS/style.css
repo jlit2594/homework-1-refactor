@@ -1,3 +1,5 @@
+/* Styles affecting all elements */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,7 +10,16 @@ body {
     background-color: #d9dcd6;
 }
 
-/* Header section styles */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Header Style */
 
 .header {
     padding: 20px;
@@ -43,14 +54,7 @@ body {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
+/* Hero Style */
 
 .hero {
     height: 800px;
@@ -61,23 +65,13 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
+/* Content Class Style */
 
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
-/* content styles */
 
 .content div {
     margin-bottom: 20px;
@@ -97,7 +91,17 @@ p {
     font-size: 36px;
 }
 
-/* style for the aside */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Aside Style */
 
 .benefits {
     margin-right: 20px;
@@ -126,7 +130,7 @@ p {
     max-width: 150px;
 }
 
-/* footer style */
+/* Footer Style */
 
 .footer {
     padding: 30px;
